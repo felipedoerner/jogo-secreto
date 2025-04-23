@@ -6,7 +6,7 @@
 
 //pra esses dois de cima, usamos a function abaixo, que é uma forma resumida.
 let listaDeNumerosSortedas = [];
-let limiteMaximo = 10;
+let limiteMaximo = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -18,7 +18,7 @@ function exibirTextoNaTela(tag, texto){
 }//função que só modifica algo no HTML.
 function mensagemInicial(){
     exibirTextoNaTela('h1', 'Jogo do Número Secreto!!');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 10 ');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
 }
 
 mensagemInicial();
